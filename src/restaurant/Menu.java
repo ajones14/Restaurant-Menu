@@ -5,13 +5,13 @@ import java.util.ArrayList;
 
 public class Menu {
 
-    protected Date lastUpdated;
-    public ArrayList<MenuItem> menuItems;
+    private Date lastUpdated;
+    private ArrayList<MenuItem> menuItems;
 
-    public Menu (ArrayList<MenuItem> menuItems, Date lastUpdated) {
+    public Menu () {
 
-        this.menuItems = menuItems;
-        this.lastUpdated = lastUpdated;
+        this.menuItems = new ArrayList<MenuItem>();
+        this.lastUpdated = new Date();
 
     }
 
@@ -29,6 +29,27 @@ public class Menu {
 
     public void setMenuItems(ArrayList<MenuItem> aMenuItems) {
         this.menuItems = menuItems;
+    }
+
+    public void addItem(MenuItem item) {
+        this.lastUpdated = new Date();
+        this.menuItems.add(item);
+    }
+
+    public void removeItem(MenuItem item) {
+        this.menuItems.remove(item);
+    }
+
+    public String printItem(MenuItem item) {
+        return item.toString();
+    }
+
+    public String printMenu() {
+        String menu = "";
+        for (MenuItem item : this.menuItems) {
+            menu += item.toString() + "\n";
+        }
+        return menu;
     }
 
 }

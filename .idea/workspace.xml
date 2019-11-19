@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="805ef0ee-eaee-45e0-9747-e0ef6dc3f5f7" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/restaurant/Restaurant.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/restaurant/Menu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/restaurant/Menu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/restaurant/MenuItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/restaurant/MenuItem.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -38,6 +41,26 @@
         </RuleState>
       </list>
     </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="Restaurant" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="restaurant.Restaurant" />
+      <module name="Restaurant Menu" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="restaurant.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Restaurant" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
